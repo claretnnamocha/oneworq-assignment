@@ -5,17 +5,17 @@ from sqlalchemy import true
 swagger_template = {
     "swagger": "2.0",
     "info": {
-        "title": "Ecommerce API",
-        "description": "API for Ecommerce",
+        "title": "Oneworq Ecommerce API - Claret Nnamocha",
+        "description": "Ecommerce API test for Oneworq",
         "contact": {
-            "responsibleOrganization": "",
+            "responsibleOrganization": "Oneworq",
             "responsibleDeveloper": "Claret Nnamocha",
             "email": "devclareo@gmail.com",
             "url": "https://claretnnamocha.com",
         },
         "version": "1.0",
     },
-    "basePath": "/api",  # base bash for blueprint registration
+    "basePath": "/api",
     "schemes": ["http", "https"],
     "securityDefinitions": {
         "Bearer": {
